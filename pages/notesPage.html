@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow notes - Note Page </title>
+    <link rel="stylesheet" href="../css/notes.css">
+</head>
+    <body>
+        <div>
+            <section>
+                <div class="header-container">
+                    <div class="header-content">
+                        <h1 class="logo-container">Notes!</h1>
+                        <p class="logo__label">Suas <span>notas</span> de maneira organizada!</p>    
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="input-container">
+                    <form>
+                        <div class="input-content">
+                            <input type="text" name="title" class="input-note" id="note-title" placeholder="Título da nota">
+                            <input type="text" name="body" class="input-note" id="note-body" placeholder="Conteúdo!">
+                            <button id="post-button" class="button-post">Postar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="note-container">
+                    <table id="note-table">
+                        <thead>
+                            <tr>
+                                <th class="note-table-title">Titulo</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                                <td>
+                                    Lavar pratos
+                                </td>
+                                <td>
+                                    as 14 horas
+                                </td>
+                                <td>
+                                    <button>Editar</button>
+                                    <button>Excluir</button>
+                                </td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <script src="../js/notes.js"></script>
+    </body>
+</html>
